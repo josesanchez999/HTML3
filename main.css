@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url("images/mexhat2.png") no-repeat;
+	background-repeat: no-repeat;
+	background-position:right;
+}
+
+
+
+#wrapper{
+	width:900px;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	height: 100px;
+	font-family: mono45-headline, monospace;
+	color: rgba;
+	text-align: center;
+	clear: both;
+	font-size: 50px
+	
+}
+
+header h1 {
+	font-size: 55px;
+	font-family: mono45-headline, monospace;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: rgba(223,87,43,0.70)
+}
+nav{
+	width: 100%;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+nav li{
+	display: inline;
+	
+}
+
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family: mono45-headline, monospace;
+	
+}
+
+nav a:link {
+	font-family: mono45-headline, monospace;
+	color: rgba(41,41,41,.7);
+	text-decoration: none;
+	margin-right: 20px;
+	
+}
+
+nav a:visited {
+	
+}
+
+nav a:hover {
+	color: rgba(0,0,0,1.00)
+}
+
+nav a:active {
+	text-decoration: underline;
+}
+
+.left {
+	width: 400px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.right {
+	width: 400px;
+	float: right;
+	margin-left: 40px;
+	margin-top: 40px;
+	font-family: mono45-headline, monospace;
+	font-size: 20px;
+}
+
+
+
+p{
+	font-family: mono45-headline, monospace;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	margin-right: 50px;
+}
